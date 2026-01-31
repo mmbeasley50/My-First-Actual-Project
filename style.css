@@ -69,17 +69,20 @@ li {
 }
 
 
+
+
+#about, 
+#discord,
+#contact,
+footer {
+    padding: 48px 0;
+}
+
 /* 
 
 ABOUT
 
 */
-
-#about, 
-#discord,
-#contact {
-    padding: 48px 0;
-}
 
 #about {
     background-color: #ffeadc;
@@ -130,3 +133,44 @@ DISCORD
     background-color: #cefeff; 
 }
 
+/* 
+
+CONTACT
+
+*/
+
+#contact {
+    background-color: #dce9ff; 
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 24px;
+    font-size: 16px;
+    padding: 6px 12px;
+}
+
+/* 
+
+CONTACT
+
+*/
+
+footer {
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+    width: 280px;
+    margin-bottom: 16px;
+}
